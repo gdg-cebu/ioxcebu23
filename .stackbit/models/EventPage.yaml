@@ -1,0 +1,30 @@
+type: page
+name: EventPage
+label: Event Page
+layout: EventPageLayout
+hideContent: true
+urlPath: '/{slug}'
+filePath: '{slug}.md'
+extends:
+  - SEO
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+  - type: string
+    name: subtitle
+    label: Subtitle
+    default: ''
+  - type: boolean
+    name: showLogo
+    label: 'Show logo?'
+    default: false
+  - type: list
+    name: sections
+    label: Sections
+    default: []
+    items:
+      type: model
+      groups:
+        - sections

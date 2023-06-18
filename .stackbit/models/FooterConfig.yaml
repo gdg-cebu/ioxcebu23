@@ -1,0 +1,14 @@
+type: object
+name: FooterConfig
+label: Footer Config
+fields:
+  - type: string
+    name: copyright
+    label: Copyright text
+    default: ''
+  - type: model
+    name: logo
+    label: Footer image
+    default: null
+    models:
+      - Image

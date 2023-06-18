@@ -1,0 +1,24 @@
+type: object
+name: EventInfoSection
+label: Event Info Section
+groups:
+  - sections
+fields:
+  - type: model
+    name: logo
+    label: 'Logo (overrides event config logo)'
+    default: null
+    models:
+      - Image
+  - type: model
+    name: cta
+    label: Call to action
+    default: null
+    models:
+      - Link
+  - type: model
+    name: banner
+    label: Banner image
+    default: null
+    models:
+      - Image

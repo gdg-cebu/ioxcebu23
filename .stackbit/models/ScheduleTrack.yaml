@@ -1,0 +1,22 @@
+type: object
+name: ScheduleTrack
+label: Schedule Track
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+    default: ''
+  - type: string
+    name: details
+    label: Details
+    default: ''
+  - type: list
+    name: sessions
+    label: Sessions
+    required: true
+    default: []
+    items:
+      type: reference
+      models:
+        - Session

@@ -1,0 +1,14 @@
+{
+  "type": "Speaker",
+  "name": "Arnelle Balane",
+  "designation": "Software Developer",
+  "company": "Newlogic",
+  "bio": "Arnelle is a Web developer from Cebu, Philippines who enjoys building things with good old HTML, CSS, JavaScript, and Web Platform APIs. He co-organizes GDG Cebu and is an active volunteer and speaker for other local JavaScript communities. He experiments with cool new Web technologies and writes about them in his blog. When not busy experimenting with new Web APIs, he can also taking photos, playing video games, or practicing his card tricks.\n",
+  "image": {
+    "type": "Image",
+    "alt": "Arnelle Balane",
+    "width": 2048,
+    "height": 2048,
+    "url": "/images/speakers/arnelle-balane.jpg"
+  }
+}

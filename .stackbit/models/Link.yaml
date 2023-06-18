@@ -1,0 +1,14 @@
+type: object
+name: Link
+label: Link
+fields:
+  - type: string
+    name: label
+    label: Label
+    required: true
+    default: ''
+  - type: string
+    name: url
+    label: URL
+    required: true
+    default: '/'

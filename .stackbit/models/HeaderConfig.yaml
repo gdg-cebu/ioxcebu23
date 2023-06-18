@@ -1,0 +1,27 @@
+type: object
+name: HeaderConfig
+label: Header Config
+fields:
+  - type: number
+    name: titleImageHeight
+    label: Header image height
+    default: 64
+  - type: enum
+    name: titleDisplay
+    label: Title display
+    controlType: button-group
+    default: none
+    options:
+      - label: None
+        value: none
+      - label: Title
+        value: title
+      - label: Logo
+        value: logo
+  - type: list
+    name: navLinks
+    label: Navigation links
+    items:
+      type: model
+      models:
+        - Link

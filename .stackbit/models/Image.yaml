@@ -1,0 +1,18 @@
+type: object
+name: Image
+label: Image
+fields:
+  - type: image
+    name: url
+    label: Image
+    required: true
+  - type: string
+    name: alt
+    label: Alternate text
+    default: ''
+  - type: number
+    name: width
+    label: Intrinsic width
+  - type: number
+    name: height
+    label: Intrinsic height

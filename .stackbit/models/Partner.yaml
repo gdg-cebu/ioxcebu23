@@ -1,0 +1,23 @@
+type: object
+name: Partner
+label: Partner
+fields:
+  - type: string
+    name: name
+    label: Name
+    required: true
+    default: ''
+  - type: string
+    name: url
+    label: URL
+    default: ''
+  - type: model
+    name: logo
+    label: Logo
+    default: null
+    models:
+      - Image
+  - type: number
+    name: height
+    label: Logo height
+    default: 60

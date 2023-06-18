@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-main text-copy;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#__next {
+  @apply min-h-screen flex flex-col;
+}
+
+/* OVERRIDES */
+
+#nprogress .bar {
+  @apply bg-primary;
+}
+
+#nprogress .peg {
+  @apply hidden;
+}

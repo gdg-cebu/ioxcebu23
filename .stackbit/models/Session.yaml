@@ -1,0 +1,30 @@
+type: data
+name: Session
+label: Session
+filePath: 'sessions/{slug}.json'
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+    default: ''
+  - type: datetime
+    name: startTime
+    label: Start time
+    required: true
+  - type: datetime
+    name: endTime
+    label: End time
+    required: true
+  - type: list
+    name: speakers
+    label: Speakers
+    default: []
+    items:
+      type: reference
+      models:
+        - Speaker
+  - type: boolean
+    name: spanAllTracks
+    label: 'Span all tracks?'
+    default: false

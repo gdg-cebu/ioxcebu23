@@ -1,0 +1,22 @@
+type: page
+name: HomePage
+label: Home Page
+layout: HomePageLayout
+hideContent: true
+urlPath: '/'
+filePath: 'index.md'
+extends:
+  - SEO
+fields:
+  - type: string
+    name: title
+    label: Title
+    const: Home
+    hidden: true
+  - type: list
+    name: sections
+    label: Sections
+    items:
+      type: model
+      groups:
+        - sections

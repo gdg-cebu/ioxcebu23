@@ -1,0 +1,14 @@
+type: object
+name: Stats
+label: Stats
+fields:
+  - type: string
+    name: label
+    label: Label
+    required: true
+    default: ''
+  - type: string
+    name: value
+    label: Value
+    required: true
+    default: ''

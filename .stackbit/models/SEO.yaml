@@ -1,0 +1,32 @@
+type: object
+name: SEO
+label: SEO
+fieldGroups:
+  - name: seo
+    label: SEO
+    icon: globe
+fields:
+  - type: string
+    name: seoTitle
+    label: Title
+    group: seo
+  - type: string
+    name: seoDescription
+    label: Description
+    group: seo
+  - type: string
+    name: seoUrl
+    label: URL
+    group: seo
+  - type: image
+    name: seoImage
+    label: Image
+    group: seo
+  - type: list
+    name: seoTags
+    label: Additional meta tags
+    items:
+      type: model
+      models:
+        - MetaTag
+    group: seo

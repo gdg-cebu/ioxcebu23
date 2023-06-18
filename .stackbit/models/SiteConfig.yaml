@@ -1,0 +1,14 @@
+type: data
+name: SiteConfig
+label: Site Config
+fields:
+  - type: model
+    name: header
+    label: Header
+    models:
+      - HeaderConfig
+  - type: model
+    name: footer
+    label: Footer
+    models:
+      - FooterConfig

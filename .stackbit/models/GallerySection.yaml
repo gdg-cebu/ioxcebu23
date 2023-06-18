@@ -1,0 +1,30 @@
+type: object
+name: GallerySection
+label: Gallery Section
+groups:
+  - sections
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+    default: ''
+  - type: string
+    name: description
+    label: Description
+    default: ''
+  - type: model
+    name: cta
+    label: Call to action
+    default: null
+    models:
+      - Link
+  - type: list
+    name: images
+    label: Images
+    required: true
+    default: []
+    items:
+      type: model
+      models:
+        - Image

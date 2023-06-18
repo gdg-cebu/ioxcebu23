@@ -1,0 +1,29 @@
+type: data
+name: EventConfig
+label: Event Config
+fields:
+  - type: string
+    name: name
+    label: Event name
+    required: true
+    default: ''
+  - type: string
+    name: description
+    label: Event description
+    required: true
+    default: ''
+  - type: model
+    name: logo
+    label: Event logo
+    required: true
+    models:
+      - Image
+  - type: date
+    name: date
+    label: Event date
+    required: true
+  - type: string
+    name: venue
+    label: Event venue
+    required: true
+    default: ''

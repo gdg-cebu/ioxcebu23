@@ -1,0 +1,29 @@
+type: data
+name: Speaker
+label: Speaker
+labelField: name
+filePath: 'speakers/{slug}.json'
+fields:
+  - type: string
+    name: name
+    label: Name
+    required: true
+    default: ''
+  - type: string
+    name: designation
+    label: Designation
+    default: ''
+  - type: string
+    name: company
+    label: Company
+    default: ''
+  - type: markdown
+    name: bio
+    label: Bio
+    default: ''
+  - type: model
+    name: image
+    label: Image
+    default: null
+    models:
+      - Image

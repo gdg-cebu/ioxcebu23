@@ -1,0 +1,18 @@
+type: object
+name: StatsSection
+label: Stats Section
+groups:
+  - sections
+fields:
+  - type: markdown
+    name: content
+    label: Content
+    default: ''
+  - type: list
+    name: stats
+    label: Stats
+    default: []
+    items:
+      type: model
+      models:
+        - Stats

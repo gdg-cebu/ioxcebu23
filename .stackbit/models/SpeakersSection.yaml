@@ -1,0 +1,15 @@
+type: object
+name: SpeakersSection
+label: Speakers Section
+groups:
+  - sections
+fields:
+  - type: list
+    name: speakers
+    label: Speakers
+    required: true
+    default: []
+    items:
+      type: reference
+      models:
+        - Speaker

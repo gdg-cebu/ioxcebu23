@@ -1,0 +1,10 @@
+@media (min-width: 1280px) {
+  .grid {
+    --grid-tracks: 1;
+
+    display: grid;
+    grid-template-columns: 6rem repeat(var(--grid-tracks), 1fr);
+    grid-auto-rows: minmax(0.5rem, max-content);
+    @apply gap-5;
+  }
+}

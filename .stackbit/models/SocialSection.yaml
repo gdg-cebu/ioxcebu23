@@ -1,0 +1,26 @@
+type: object
+name: SocialSection
+label: Social Section
+groups:
+  - sections
+fields:
+  - type: markdown
+    name: content
+    label: Content
+    required: true
+    default: ''
+  - type: list
+    name: links
+    label: Links
+    required: true
+    default: []
+    items:
+      type: model
+      models:
+        - Link
+  - type: model
+    name: image
+    label: Image
+    default: null
+    models:
+      - Image

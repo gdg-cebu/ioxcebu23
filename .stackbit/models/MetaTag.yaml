@@ -1,0 +1,19 @@
+type: object
+name: MetaTag
+label: Meta Tag
+fields:
+  - type: enum
+    name: property
+    label: Property
+    required: true
+    default: 'twitter:card'
+    options:
+      - label: og:url
+        value: og:url
+      - label: twitter:card
+        value: twitter:card
+  - type: string
+    name: content
+    label: Content
+    required: true
+    default: ''

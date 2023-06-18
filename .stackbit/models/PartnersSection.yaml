@@ -1,0 +1,20 @@
+type: object
+name: PartnersSection
+label: Partners Section
+groups:
+  - sections
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+    default: ''
+  - type: list
+    name: groups
+    label: Partner groups
+    required: true
+    default: []
+    items:
+      type: model
+      models:
+        - PartnersGroup

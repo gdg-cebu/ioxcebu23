@@ -1,0 +1,15 @@
+type: object
+name: ScheduleSection
+label: Schedule Section
+groups:
+  - sections
+fields:
+  - type: list
+    name: tracks
+    label: Tracks
+    required: true
+    default: []
+    items:
+      type: model
+      models:
+        - ScheduleTrack

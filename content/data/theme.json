@@ -1,0 +1,14 @@
+{
+  "type": "ThemeStyle",
+  "main": "#ffffff",
+  "copy": "#0f172a",
+  "copyFaded": "#6b7280",
+  "primary": "#1e40af",
+  "primaryInt": "#1e3a8a",
+  "primaryFaded": "#dbeafe",
+  "onPrimary": "#ffffff",
+  "complementary": "#e5e7eb",
+  "complementaryInt": "#d1d5db",
+  "complementaryFaded": "#f3f4f6",
+  "onComplementary": "#0f172a"
+}

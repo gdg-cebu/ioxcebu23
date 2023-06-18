@@ -1,0 +1,18 @@
+type: object
+name: PartnersGroup
+label: Partners Group
+fields:
+  - type: string
+    name: title
+    label: Title
+    required: true
+    default: ''
+  - type: list
+    name: partners
+    label: Partners
+    required: true
+    default: []
+    items:
+      type: model
+      models:
+        - Partner

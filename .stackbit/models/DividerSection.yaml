@@ -1,0 +1,6 @@
+type: object
+name: DividerSection
+label: Divider Section
+groups:
+  - sections
+fields: []

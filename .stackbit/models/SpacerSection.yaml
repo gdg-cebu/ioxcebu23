@@ -1,0 +1,20 @@
+type: object
+name: SpacerSection
+label: Spacer Section
+groups:
+  - sections
+fields:
+  - type: enum
+    name: size
+    label: Size
+    default: sm
+    controlType: button-group
+    options:
+      - label: Small
+        value: sm
+      - label: Medium
+        value: md
+      - label: Large
+        value: lg
+      - label: Flexible
+        value: flex
