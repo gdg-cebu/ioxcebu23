@@ -1,14 +1,14 @@
 {
-  "type": "EventConfig",
-  "name": "Event Name 2022",
-  "description": "This event brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at latest developer products.",
-  "date": "2022-12-21",
-  "venue": "Cebu City, Philippines",
-  "logo": {
-    "type": "Image",
-    "alt": "Event Name 2022",
-    "width": 130,
-    "height": 130,
-    "url": "/images/default-logo.png"
-  }
+    "type": "EventConfig",
+    "name": "Google IO 2023",
+    "description": "I/O brings together developers from around the globe for talks, hands-on learning with Google experts, and a first look at Google’s latest developer products.",
+    "date": "2023-08-29",
+    "venue": "Cebu City, Philippines",
+    "logo": {
+        "type": "Image",
+        "alt": "Google IO",
+        "width": 130,
+        "height": 130,
+        "url": "/images/io.svg"
+    }
 }

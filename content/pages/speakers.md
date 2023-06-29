@@ -30,5 +30,10 @@ sections:
       - type: Link
         label: Website
         url: 'https://gdgcebu.org/'
-    image: null
+    image:
+      type: Image
+      alt: ''
+      width: 0
+      height: 0
+      url: /images/io.svg
 ---

@@ -2,8 +2,8 @@
 layout: EventPageLayout
 title: Schedule
 subtitle: >-
-  Learn the latest developer products from Googlers, Google Developer Experts,
-  guest speakers and more.
+  Learn Google's latest developer products from Googlers, Google Developer
+  Experts, guest speakers and more.
 showLogo: false
 sections:
   - type: ScheduleSection
@@ -40,5 +40,10 @@ sections:
       - type: Link
         label: Website
         url: 'https://gdgcebu.org/'
-    image: null
+    image:
+      type: Image
+      alt: ''
+      width: 0
+      height: 0
+      url: /images/io.svg
 ---

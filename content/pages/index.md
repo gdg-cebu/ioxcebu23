@@ -8,7 +8,7 @@ sections:
       alt: GDG Logo
       width: 800
       height: 800
-      url: /images/gdg-logo.png
+      url: /images/io.svg
     cta:
       type: Link
       label: Register now
@@ -30,23 +30,24 @@ sections:
       - type: Stats
         label: Day
         value: '1'
-    content: >-
+    content: >
       # What you need to know, before you ask
 
 
-      This event brings together experts in Machine Learning, Android, Web and
-      Cloud technologies to a day full of sessions, workshops and showcases.
+      Google I/O Extended 2022 Cebu brings together experts in Machine Learning,
+      Android, Web and Cloud technologies to a day full of sessions, workshops
+      and showcases.
 
 
-      Our team creates this event to be the best place for experience sharing in
-      a phenomenal atmosphere.
+      Our team creates Google I/O Extended to be the best place for experience
+      sharing in a phenomenal atmosphere.
   - type: SpacerSection
     size: sm
   - type: GallerySection
-    title: Highlights from the last event
+    title: '#ioxcebu22 highlights'
     description: >-
-      This year's event built lots of excitement. Check out photos from featured
-      talks, hands-on learning sessions, and after-hours fun.
+      This year's festival built lots of excitement. Check out photos from
+      featured talks, hands-on learning sessions, and after-hours fun.
     cta:
       type: Link
       label: See all photos
@@ -90,4 +91,10 @@ sections:
       - type: Link
         label: Website
         url: 'https://gdgcebu.org/'
+    image:
+      type: Image
+      alt: ''
+      width: 0
+      height: 0
+      url: /images/io.svg
 ---
