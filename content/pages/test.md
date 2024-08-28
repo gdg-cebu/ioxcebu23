@@ -2,6 +2,6 @@
 type: EventPage
 title: Test Page
 subtitle: Test Subtitle
-showLogo: false
+showLogo: true
 sections: []
 ---
